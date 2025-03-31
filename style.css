@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #F1F1F1;
+    height: 89px;
+}
+
+#container {
+        display: flex;
+        gap: 20px; 
+        align-items: center;
+        cursor: pointer;
+        margin:30px;
+        font-family: 'Poppins', sans-serif;
+        transition: transform 0.3s ease, color 0.3s ease;
+        justify-content: flex-end;
+        position: absolute; top: auto; left: 980px;
+    }
+
+    #container div:hover {
+        transform: scale(1.1);
+        background-color: #222222;  
+        color: #ffffff;
+        border-radius: 7px;
+        padding: 5px 6px;
+    }
+    
+.logo {
+    width: 144.78px;
+    height: 27px;
+    position: absolute; top: 36px; left: 65px;
+}
+
+#textup {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    position:absolute; top: 197px; left: 135px;
+    background-color: #F1F1F1;
+    width: 315px;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+#mainimage {
+    display: flex;
+    justify-content: flex-end;
+    position:absolute; top: 197px; right: 235px;
+}
+
+#Henry { 
+    font-family: 'Satoshi-Black', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 87px;
+    letter-spacing: -1%;
+    position: absolute; top: 283px; left: 135px;
+}
+
+#securitysas {
+    display: flex;
+    font-family: 'Satoshi-Black', sans-serif;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 87px;
+    letter-spacing: -1%;
+    position: absolute; top: 391px; left: 128px;
+    background-color: #FFFF00;
+    width: 850px; height: 117px;
+    position: absolute; top: 415px; left: 110px;
+    border-radius: 418px;
+    justify-content: center;
+}
+
+#Subtítulo {
+    font-family: 'Satoshi-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0.5%;
+    position: absolute; top: 545px; left: 135px;
+    color: #676767;
+}
+
